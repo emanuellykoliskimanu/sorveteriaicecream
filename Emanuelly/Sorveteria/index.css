@@ -1,0 +1,31 @@
+
+:root{
+    --cor-de-fundo: #ffffff;
+    --verde: #cc7cf7;
+    --branco: #b47bf5;
+    --botao-ativo: #8553c7;
+    --botao-inativo: rgba(255, 255, 255, 0.5);
+    --texto-fundo: rgba(255, 255, 255, 0.3);
+}
+body {
+  background-color:#d8b6fe;
+  color:#ffffff;
+  font-family: 'Chakra Petch', sans-serif;
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.titulo-principal {
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
+}
+.titulo-principal span {
+  color: var(--verde);
+}
